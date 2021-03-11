@@ -1,0 +1,57 @@
+/* edit form style*/
+input[type=text], select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid orange;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }  
+  input[type=submit] {
+    background-color: orange;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: 600;
+    border-color: orange;
+  }
+  
+  input[type=submit]:hover {
+    background-color: orange;
+  }
+  
+  .container {
+    border-radius: 5px;
+    border-color: orange;
+    background-color: white;
+    padding: 60px 445px 10px 445px;
+ }
+ h1{
+     text-align: center;
+ }
+ button {
+  background-color: orange;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+}
+
+/* header */
+
+/* .header {
+  background-color: orange;
+  padding: 20px 10px;
+  margin-bottom:10px;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+} */
