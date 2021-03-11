@@ -41,12 +41,20 @@ onEditFormSubmit=() =>{
 }
 /*to delete the record*/
 function onDelete(){
-    console.log(id)
-    // if (confirm('Are you sure to delete this record ?')) {     
-    //     fetch("http://localhost:3000/payee/"+id,{
-    //             method:"DELETE"
-    //         })
-    //     }   
-    }     
+    if (confirm('Are you sure to delete this record ?')) {     
+        fetch("http://localhost:3000/payee/"+id,{
+                method:"DELETE"
+            })
+        }   
+        window.location.href = "http://localhost:5500/public/payeeList.html";    
+
+    }  
+/*to delete the record*/
+function onCancel(){
+    window.location.href = "http://localhost:5500/public/payeeList.html";    
+
+    }  
+    
+
 
     
