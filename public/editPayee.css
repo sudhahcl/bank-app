@@ -1,135 +1,121 @@
 body {
-  width:100%;
-    background-color: white; 
-    height: 100%;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: rgba(177, 151, 128, 0.4); 
-}
-/* Full-width input fields */
-input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-  border: 1px solid orange;
-}
-
-/* Set a style for all buttons */
-button {
-  background-color:orange;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-/* Extra styles for the cancel button */
-.cancelbtn {
-  background-color: #f44336;
-}
-
-/* Center the image and position the close button */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
-}
-
-img.avatar {
-  width: 30%;
-  
-}
-
-.container {
-  padding: 16px;
-}
-
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-h3,h2{
-    text-align: center;
-}
-/* The Modal (background) */
-.modal {
-  display: block; 
-  z-index: 1; 
-  position: relative;
-  left: 30%; 
-  top: 0;
-  width: 50%; 
-  height: 50%;
-  
-  
-  background-color: grey; 
-  padding-top: 30px;
-}
-
-/* Modal Content/Box */
-.modal-content {
-   
-  background-color: #fefefe;
-  margin: 5% auto 10% auto; 
-  border: 1px solid orange;
-  width: 60%; 
-}
-
-/* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
-}
-
-
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-     display: block;
-     float: none;
-  }
-  .cancelbtn {
-     width: 100%;
-  }
-}
-
-.body{
     width:100%;
-    background-color: white; 
-    height: 100%
-}
-.login{
-    text-align:center;
+      background-color: white; 
+      height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(177, 151, 128, 0.4); 
+  }
+  /* Full-width input fields */
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border: 1px solid orange;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color:orange;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
     position: relative;
+  }
+  
+  img.avatar {
+    width: 30%;
+    
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
     float: right;
-    width: 70px;
-    margin-right:50px;
-}
-.list {
-  text-align: left;
-  float:left;
-  color: blue;
-  font-size: 15px;
-  font-weight: bold;
-  margin-right:5px
-}
+    padding-top: 16px;
+  }
+  
+  h3,h2{
+      text-align: center;
+  }
+  /* The Modal (background) */
+  .modal {
+    display: block; 
+    z-index: 1; 
+    position: relative;
+    left: 30%; 
+    top: 0;
+    width: 50%; 
+    height: 50%;
+    
+    
+    background-color: grey; 
+    padding-top: 30px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+     
+    background-color: #fefefe;
+    margin: 5% auto 10% auto; 
+    border: 1px solid orange;
+    width: 60%; 
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+  
+  .body{
+      width:100%;
+      background-color: white !important; 
+      height: 100%
+  }
+ 
