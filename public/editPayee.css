@@ -1,57 +1,135 @@
-/* edit form style*/
-input[type=text], select {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid orange;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-  }  
-  input[type=submit] {
-    background-color: orange;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    width: 100%;
-    font-weight: 600;
-    border-color: orange;
-  }
-  
-  input[type=submit]:hover {
-    background-color: orange;
-  }
-  
-  .container {
-    border-radius: 5px;
-    border-color: orange;
-    background-color: white;
-    padding: 60px 445px 10px 445px;
- }
- h1{
-     text-align: center;
- }
- button {
-  background-color: orange;
-  color: white;
+body {
+  width:100%;
+    background-color: white; 
+    height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(177, 151, 128, 0.4); 
+}
+/* Full-width input fields */
+input[type=text] {
+  width: 100%;
   padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: left;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border: 1px solid orange;
 }
 
-/* header */
+/* Set a style for all buttons */
+button {
+  background-color:orange;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
 
-/* .header {
-  background-color: orange;
-  padding: 20px 10px;
-  margin-bottom:10px;
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
   text-align: center;
-  color: black;
-  font-size: 25px;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 30%;
+  
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+h3,h2{
+    text-align: center;
+}
+/* The Modal (background) */
+.modal {
+  display: block; 
+  z-index: 1; 
+  position: relative;
+  left: 30%; 
+  top: 0;
+  width: 50%; 
+  height: 50%;
+  
+  
+  background-color: grey; 
+  padding-top: 30px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+   
+  background-color: #fefefe;
+  margin: 5% auto 10% auto; 
+  border: 1px solid orange;
+  width: 60%; 
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
   font-weight: bold;
-} */
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+.body{
+    width:100%;
+    background-color: white; 
+    height: 100%
+}
+.login{
+    text-align:center;
+    position: relative;
+    float: right;
+    width: 70px;
+    margin-right:50px;
+}
+.list {
+  text-align: left;
+  float:left;
+  color: blue;
+  font-size: 15px;
+  font-weight: bold;
+  margin-right:5px
+}
