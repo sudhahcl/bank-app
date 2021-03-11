@@ -1,0 +1,27 @@
+{
+    "users": [
+      {
+        "userName": "Professor",
+        "password": "Sudha@123",
+        "id": 1
+      },
+      {
+        "userName": "Sushma",
+        "password": "Sushama@123",
+        "id": 2
+      }
+    ],
+    "payee":[
+        {
+"name":"Sudha",
+"accountNumber":"SSS 1234 78900",
+"bankName":"Nairobi Bank",
+"code":1234
+    },
+   { 
+       "name":"Sushma",
+"accountNumber":"SSS 1235 78901",
+"bankName":"Denver Bank",
+"code":1235
+
+}]}
