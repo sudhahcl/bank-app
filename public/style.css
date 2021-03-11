@@ -16,6 +16,15 @@ input[type=text], input[type=password] {
     box-sizing: border-box;
     border: 1px solid orange;
   }
+  input[type=submit]{
+    background-color:orange;
+    color: white;
+    padding: 5px 8px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
   
   /* Set a style for all buttons */
   button {
@@ -135,3 +144,105 @@ input[type=text], input[type=password] {
     font-weight: bold;
     margin-right:5px
 }
+.btn{
+    
+    background-color:white;
+    color: orange;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+.btn1{
+    
+    margin-left:10px;
+    background-color:orange;
+    color: white;
+    padding: 5px 8px;
+    margin-right: 40px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    position: relative;
+    left: 35%;
+}
+table{
+    background-color: #fefefe;
+    margin: 5% auto 10% auto; 
+    border: 1px solid orange;
+    width: 60%; 
+   }
+
+td, th {
+    text-align: left;
+    padding: 15px;
+   }
+
+h2{
+    text-align:center;
+    color:orange
+}
+
+.createlist
+  {
+    background-color: orange;
+    border-color: orange;
+    color: white;
+    position: relative;
+    left: 45%;
+    padding: 10px;
+    border-radius: 5px;
+    top: 200px;
+    }
+
+.name{
+    color:orange
+}
+
+.accountnumber{
+    color:grey;
+}
+
+.bankname{
+    color:grey;
+}
+
+.edit{
+  background-color: orange;
+  color:white;
+  border:none;
+  width:20px;
+  float: right;
+  position: relative;
+  bottom: 40px;
+  background-image: url("../src/edit.png");
+}
+
+@media screen and (max-width: 300px)  {
+    .createlist {
+        background-color: orange;
+        border-color: orange;
+        color: white;
+        position: relative;
+        top: 250px;
+        left: 30%;
+      }
+      table{
+        display: block;
+        width:100%
+      }
+    }
+
+    td{
+        color:orange
+    }
+
+    td:last-child {
+        color: grey;
+    }
+
+    td:nth-child(2) {
+        color: grey;  
+    }
+
