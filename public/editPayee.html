@@ -10,7 +10,7 @@
        
 
         <div class="form" id="form">
-            <form onsubmit="event.preventDefault(); onEditFormSubmit();" class="modal-content animate" autocomplete="off">
+            <form onsubmit="event.preventDefault();" class="modal-content animate" autocomplete="off">
                 <div class="imgcontainer">
                     <h3>Edit Favorite Account</h3>
                 </div>
@@ -23,13 +23,14 @@
                     <input type="text" id="bankName" name="bankName" required readonly><br>
                     <input type="hidden" id="code" name="code" >
                     <input type="hidden" id="id" name="id" >
-                    <button type="submit" value="Save">Save</button><br/><br/>
-                    <button onclick="onDelete()">Delete</button><br/><br/>
-                    <button type="submit" value="Cancel">Cancel</button><br/><br/>  
+                    <button type="submit" onClick="onEditFormSubmit()">Save</button><br/><br/>
+                    <button onClick="onDelete()">Delete</button><br/><br/>
+                    <button onClick="onCancel()">Cancel</button><br/><br/>  
                 </div>              
             </form>
         </div>
         <script src="../src/editPayee.js"></script>
+        <script src="../src/deleteCancel.js"></script>
 
     </body>
 </html>
